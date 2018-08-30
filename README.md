@@ -27,7 +27,7 @@ How To Install It
 You can install it via script tag
 
 ```bash
-npm install --save threex.domevents
+npm install --save threex-domevents
 ```
 
 How To Use It
@@ -38,7 +38,7 @@ Let's start by binding dom events like on 3d objects.
 ## First step initialize
 ```javascript
 var THREE = require('three') // require peer dependency
-var initializeDomEvents = require('threex.domevents')
+var initializeDomEvents = require('threex-domevents')
 var THREEx = {}
 initializeDomEvents(THREE, THREEx)
 ```
